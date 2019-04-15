@@ -36,6 +36,8 @@ Ideally, after every change in your system you will have to test it again. If yo
 
 <p>Unit tests are very small and fast to run - that&rsquo;s why you want to have lots of these. Business cycle tests are slow to execute and hard to maintain.</p>
 
+<hr />
+
 <p><b>Unit test:</b> It validates if a unit of your X++ code behaves as expected.</p>
 
 <p><b>Component test:</b> It validates if your component works as expected and met the functional requirements (of the component).</p>
@@ -43,6 +45,8 @@ Ideally, after every change in your system you will have to test it again. If yo
 <p><b>Integration test:</b> Validates the interactions between several components. Validates the functional requirements.</p>
 
 <p><b>Business cycle test:</b> Validates end to end scenarios. Simulates a real user and validates the functional requirements.</p>
+
+<hr />
 
 <h2 id="the-rsat-tool">The RSAT tool</h2>
 

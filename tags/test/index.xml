@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test on Marcelbf</title>
+    <link>https://marcelbf.github.io/tags/test/</link>
+    <description>Recent content in Test on Marcelbf</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 15 Apr 2019 09:42:45 +1200</lastBuildDate>
+    
+	<atom:link href="https://marcelbf.github.io/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Testing</title>
+      <link>https://marcelbf.github.io/posts/testing/</link>
+      <pubDate>Mon, 15 Apr 2019 09:42:45 +1200</pubDate>
+      
+      <guid>https://marcelbf.github.io/posts/testing/</guid>
+      <description>Testing automation There are several testing capabilities for Dynamics AX Dynamics 365 for Finance and Operations (D365FO). It is import to understand the value of automate testing and where to use which tool/technique.
+You can&amp;rsquo;t avoid, at some point you will have to test your solution.
+Ideally, after every change in your system you will have to test it again. If you have to go over the same process multiple times, why not automate to save some time and money ?</description>
+    </item>
+    
+  </channel>
+</rss>
