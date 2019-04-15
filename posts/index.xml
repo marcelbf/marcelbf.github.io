@@ -34,7 +34,7 @@ You can&amp;rsquo;t avoid, at some point you will have to test your solution.</d
 <h2 id="the-testing-pyramid">The testing pyramid</h2>
 
 <p>Thinking about Return Of Investment (ROI), the ideal number of tests you have in your environment is:
-<img src="/img/test-pyramid.png" alt="image" /></p>
+<img src="/img/testpyramid.PNG" alt="image" /></p>
 
 <h2 id="the-challenge">The challenge</h2>
 
