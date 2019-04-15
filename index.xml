@@ -19,8 +19,8 @@
       
       <guid>https://marcelbf.github.io/posts/testing/</guid>
       <description>Testing automation There are several testing capabilities for Dynamics AX Dynamics 365 for Finance and Operations (D365FO). It is import to understand the value of automate testing and where to use which tool/technique.
-In a implementation you can have 2 possible scenarios to be tested: 1. A process implemented without any customization 2. A X++ extension to add functionality on your solution
-You can&amp;rsquo;t avoid, at some point you will have to test your solution.</description>
+You can&amp;rsquo;t avoid, at some point you will have to test your solution.
+Ideally, after every change in your system you will have to test it again. If you have to go over the same process multiple times, why not automate to save some time and money ?</description>
     </item>
     
     <item>

@@ -17,34 +17,40 @@
 			
 			<guid>https://marcelbf.github.io/posts/testing/</guid>
 			<description>Testing automation There are several testing capabilities for Dynamics AX Dynamics 365 for Finance and Operations (D365FO). It is import to understand the value of automate testing and where to use which tool/technique.
-In a implementation you can have 2 possible scenarios to be tested: 1. A process implemented without any customization 2. A X++ extension to add functionality on your solution
-You can&amp;rsquo;t avoid, at some point you will have to test your solution.</description>
+You can&amp;rsquo;t avoid, at some point you will have to test your solution.
+Ideally, after every change in your system you will have to test it again. If you have to go over the same process multiple times, why not automate to save some time and money ?</description>
 			<content type="html"><![CDATA[
 
 <h1 id="testing-automation">Testing automation</h1>
 
 <p>There are several testing capabilities for <s>Dynamics AX</s> Dynamics 365 for Finance and Operations (D365FO). It is import to understand the value of automate testing and where to use which tool/technique.</p>
 
-<p>In a implementation you can have 2 possible scenarios to be tested:
-1. A process implemented without any customization
-2. A X++ extension to add functionality on your solution</p>
+<p><b>You can&rsquo;t avoid, at some point you will have to test your solution.</b></p>
 
-<p><b>You can&rsquo;t avoid, at some point you will have to test your solution.</b> Ideally, after every change in your system you will have to test it again. If you have to go over the same process multiple times, why not automate to save some time/$ ?</p>
+<p>Ideally, after every change in your system you will have to test it again. If you have to go over the same process multiple times, why not automate to save some time and money ?</p>
 
 <h2 id="the-testing-pyramid">The testing pyramid</h2>
 
 <p>Thinking about Return Of Investment (ROI), the ideal number of tests you have in your environment is:
-<img src="/img/testpyramid.PNG" alt="image" /></p>
+<img src="/img/testpyramid.PNG" alt="The testing pyramid" /></p>
 
-<h2 id="the-challenge">The challenge</h2>
+<p>Unit tests are very small and fast to run - that&rsquo;s why you want to have lots of these. Business cycle tests are slow to execute and hard to maintain.</p>
 
-<p>D365FO is heavily dependent on data. This data dependency is one of the main challenge for developers to do unit testing.</p>
+<p><b>Unit test:</b> It validates if a unit of your X++ code behaves as expected.</p>
 
-<h2 id="example-of-a-test-that-is-written-with-atl">example of a test that is written with ATL</h2>
+<p><b>Component test:</b> It validates if your component works as expected and met the functional requirements (of the component).</p>
 
-<pre><code>var 1
-var 2
-</code></pre>
+<p><b>Integration test:</b> Validates the interactions between several components. Validates the functional requirements.</p>
+
+<p><b>Business cycle test:</b> Validates end to end scenarios. Simulates a real user and validates the functional requirements.</p>
+
+<h2 id="the-rsat-tool">The RSAT tool</h2>
+
+<p>Microsoft released a Regression Suite Automation Tool (RSAT). It is a great tool to automate some of your tests, but <b>be aware</b>, this should be used for Business cycle testing.</p>
+
+<p><b>RSAT tool will simulate the user and perform all actions through the UI. It means it is slow to run.</b></p>
+
+<p>If you have X++ customization in your D365 project you definitely should be doing unit, component and integration testing using SysTest, not only RSAT.</p>
 ]]></content>
 		</item>
 		
