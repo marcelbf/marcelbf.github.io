@@ -7,8 +7,46 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Wed, 03 Apr 2019 21:37:03 +1300</lastBuildDate>
+		<lastBuildDate>Mon, 15 Apr 2019 09:42:45 +1200</lastBuildDate>
 		<atom:link href="https://marcelbf.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Testing</title>
+			<link>https://marcelbf.github.io/posts/testing/</link>
+			<pubDate>Mon, 15 Apr 2019 09:42:45 +1200</pubDate>
+			
+			<guid>https://marcelbf.github.io/posts/testing/</guid>
+			<description>Testing automation There are several testing capabilities for Dynamics AX Dynamics 365 for Finance and Operations (D365FO). It is import to understand the value of automate testing and where to use which tool/technique.
+In a implementation you can have 2 possible scenarios to be tested: 1. A process implemented without any customization 2. A X++ extension to add functionality on your solution
+You can&amp;rsquo;t avoid, at some point you will have to test your solution.</description>
+			<content type="html"><![CDATA[
+
+<h1 id="testing-automation">Testing automation</h1>
+
+<p>There are several testing capabilities for <s>Dynamics AX</s> Dynamics 365 for Finance and Operations (D365FO). It is import to understand the value of automate testing and where to use which tool/technique.</p>
+
+<p>In a implementation you can have 2 possible scenarios to be tested:
+1. A process implemented without any customization
+2. A X++ extension to add functionality on your solution</p>
+
+<p><b>You can&rsquo;t avoid, at some point you will have to test your solution.</b> Ideally, after every change in your system you will have to test it again. If you have to go over the same process multiple times, why not automate to save some time/$ ?</p>
+
+<h2 id="the-testing-pyramid">The testing pyramid</h2>
+
+<p>Thinking about Return Of Investment (ROI), the ideal number of tests you have in your environment is:
+<img src="/img/test-pyramid.png" alt="image" /></p>
+
+<h2 id="the-challenge">The challenge</h2>
+
+<p>D365FO is heavily dependent on data. This data dependency is one of the main challenge for developers to do unit testing.</p>
+
+<h2 id="example-of-a-test-that-is-written-with-atl">example of a test that is written with ATL</h2>
+
+<pre><code>var 1
+var 2
+</code></pre>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Hello World</title>

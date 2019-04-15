@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Marcelbf</title>
-    <link>https://marcelbf.github.io/</link>
-    <description>Recent content on Marcelbf</description>
+    <title>Dyn365fo on Marcelbf</title>
+    <link>https://marcelbf.github.io/tags/dyn365fo/</link>
+    <description>Recent content in Dyn365fo on Marcelbf</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Mon, 15 Apr 2019 09:42:45 +1200</lastBuildDate>
     
-	<atom:link href="https://marcelbf.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://marcelbf.github.io/tags/dyn365fo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,16 +21,6 @@
       <description>Testing automation There are several testing capabilities for Dynamics AX Dynamics 365 for Finance and Operations (D365FO). It is import to understand the value of automate testing and where to use which tool/technique.
 In a implementation you can have 2 possible scenarios to be tested: 1. A process implemented without any customization 2. A X++ extension to add functionality on your solution
 You can&amp;rsquo;t avoid, at some point you will have to test your solution.</description>
-    </item>
-    
-    <item>
-      <title>Hello World</title>
-      <link>https://marcelbf.github.io/posts/hello-world/</link>
-      <pubDate>Wed, 03 Apr 2019 21:37:03 +1300</pubDate>
-      
-      <guid>https://marcelbf.github.io/posts/hello-world/</guid>
-      <description>Hello world. This is my first post!
-{ info(&amp;quot;Hello World!&amp;quot;); }  </description>
     </item>
     
   </channel>

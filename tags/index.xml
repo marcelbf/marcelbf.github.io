@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Wed, 03 Apr 2019 21:37:03 +1300</lastBuildDate>
+    <lastBuildDate>Mon, 15 Apr 2019 09:42:45 +1200</lastBuildDate>
     
 	<atom:link href="https://marcelbf.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>D365fo</title>
+      <link>https://marcelbf.github.io/tags/d365fo/</link>
+      <pubDate>Mon, 15 Apr 2019 09:42:45 +1200</pubDate>
+      
+      <guid>https://marcelbf.github.io/tags/d365fo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dyn365fo</title>
+      <link>https://marcelbf.github.io/tags/dyn365fo/</link>
+      <pubDate>Mon, 15 Apr 2019 09:42:45 +1200</pubDate>
+      
+      <guid>https://marcelbf.github.io/tags/dyn365fo/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Hello World</title>
@@ -18,6 +36,24 @@
       <pubDate>Wed, 03 Apr 2019 21:37:03 +1300</pubDate>
       
       <guid>https://marcelbf.github.io/tags/hello-world/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Systest</title>
+      <link>https://marcelbf.github.io/tags/systest/</link>
+      <pubDate>Mon, 15 Apr 2019 09:42:45 +1200</pubDate>
+      
+      <guid>https://marcelbf.github.io/tags/systest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>X&#43;&#43;</title>
+      <link>https://marcelbf.github.io/tags/x&#43;&#43;/</link>
+      <pubDate>Mon, 15 Apr 2019 09:42:45 +1200</pubDate>
+      
+      <guid>https://marcelbf.github.io/tags/x&#43;&#43;/</guid>
       <description></description>
     </item>
     
