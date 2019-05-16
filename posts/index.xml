@@ -520,10 +520,12 @@ final class MFCustTable_Extension
 
 <ul>
 <li>Each test is unique and not dependent on any other test.</li>
+<li>Keep it simple! Minimize the scope of your test. If you have to test multiple things break it in multiple tests.</li>
+<li>Keep it readable! Choose meaningful names. Prioritize the readability, not reusability of the code.</li>
 <li>A unit test will run in DAT company.</li>
 <li>You can run in a different company using the attribute <i>SysTestCaseDataDependencyAttribute(&ldquo;DAT&rdquo;)</i> in the class (not in the method).</li>
 <li>You can use the attribute <i>SysTestCaseNumSeqModuleDependency()</i> to generate number sequences (if you are running your test in a empty company.</li>
-<li>If you check in your unit test model your tests will be executed in your build.</li>
+<li>If you check in your unit test model, your tests will be executed in your build.</li>
 <li>Using a unit test to develop you don&rsquo;t need to open the browser all the time to test during development.</li>
 <li>Writing your tests first helps you to think about the implementation you have to write and clarify requirements if needed.</li>
 </ul>

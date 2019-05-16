@@ -19,7 +19,7 @@ I will show bellow how to create a unit test following this pattern and using Sy
 
 <meta itemprop="datePublished" content="2019-05-03T10:22:16&#43;12:00" />
 <meta itemprop="dateModified" content="2019-05-03T10:22:16&#43;12:00" />
-<meta itemprop="wordCount" content="1465">
+<meta itemprop="wordCount" content="1500">
 
 
 
@@ -587,10 +587,12 @@ final class MFCustTable_Extension
 
 <ul>
 <li>Each test is unique and not dependent on any other test.</li>
+<li>Keep it simple! Minimize the scope of your test. If you have to test multiple things break it in multiple tests.</li>
+<li>Keep it readable! Choose meaningful names. Prioritize the readability, not reusability of the code.</li>
 <li>A unit test will run in DAT company.</li>
 <li>You can run in a different company using the attribute <i>SysTestCaseDataDependencyAttribute(&ldquo;DAT&rdquo;)</i> in the class (not in the method).</li>
 <li>You can use the attribute <i>SysTestCaseNumSeqModuleDependency()</i> to generate number sequences (if you are running your test in a empty company.</li>
-<li>If you check in your unit test model your tests will be executed in your build.</li>
+<li>If you check in your unit test model, your tests will be executed in your build.</li>
 <li>Using a unit test to develop you don&rsquo;t need to open the browser all the time to test during development.</li>
 <li>Writing your tests first helps you to think about the implementation you have to write and clarify requirements if needed.</li>
 </ul>
@@ -601,7 +603,7 @@ final class MFCustTable_Extension
 				<p>
 					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://marcelbf.github.io/tags/d365fo">D365FO</a></span><span class="tag"><a href="https://marcelbf.github.io/tags/unit-test">Unit test</a></span><span class="tag"><a href="https://marcelbf.github.io/tags/test">Test</a></span><span class="tag"><a href="https://marcelbf.github.io/tags/arrange-act-assert">Arrange, Act, Assert</a></span><span class="tag"><a href="https://marcelbf.github.io/tags/systestcase">SysTestCase</a></span>
 				</p>
-				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>1465 Words</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>1500 Words</p>
 				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-05-03 10:22 &#43;1200</p>
 			</footer>
 		</article>
