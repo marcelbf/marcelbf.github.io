@@ -13,17 +13,17 @@
     
     
     <item>
-      <title>Unit Test</title>
+      <title>How to create unit test</title>
       <link>https://marcelbf.github.io/posts/unit-test/</link>
       <pubDate>Fri, 03 May 2019 10:22:16 +1200</pubDate>
       
       <guid>https://marcelbf.github.io/posts/unit-test/</guid>
-      <description>How to Create a unit test There&amp;rsquo;s a simple pattern called AAA - Arrange, Act, Assert.
+      <description>How to create a unit test for Dynamics AX Dynamics 365 for Finance and Operation (D365FO)?
+There&amp;rsquo;s a simple pattern called AAA - Arrange, Act, Assert.
 Arrange: Create the data and parameters you need to execute the code you want to test.
 Act: Call the code you want to test.
 Assert: Assert if the result is the expected.
-I will show bellow how to create a unit test following this pattern and using SysTest framework.
-SysTest Framework In a nutshell: - Any data you generate during the execution will not persist.</description>
+I will show bellow how to create a unit test following this pattern and using SysTest framework.</description>
     </item>
     
     <item>
